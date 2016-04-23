@@ -31,8 +31,6 @@ class SearchServiceProvider extends ServiceProvider {
 
             $searchquery->create($item);
         }
-
-        define('SANATORIUM_SHOPSEARCH', 1);
 	}
 
 	/**

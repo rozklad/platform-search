@@ -31,7 +31,7 @@ class SearchController extends AdminController {
 
             $item = [
                 'name' => $item->name,
-                'description' => 'Menu item',
+                'description' => trans('sanatorium/search::general.items.menu'),
                 'url' => admin_uri() . '/' . $item->uri
             ];
 
@@ -57,7 +57,7 @@ class SearchController extends AdminController {
 
             $item = [
                 'name' => $item->name,
-                'description' => 'Page item',
+                'description' => trans('sanatorium/search::general.items.page'),
                 'url' => $item->uri
             ];
 

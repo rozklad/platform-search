@@ -149,6 +149,15 @@ return [
 	'routes' => function(ExtensionInterface $extension, Application $app)
 	{
 
+		Route::group([
+			'prefix' => admin_uri() . '/search',
+			'namespace' => 'Sanatorium\Search\Controllers\Admin'
+		], function(){
+
+			Route::get('api', ['as' => 'admin.sanatorium.search.api', 'uses' => 'SearchController@api' ]);
+
+		});
+
 	},
 
 	/*

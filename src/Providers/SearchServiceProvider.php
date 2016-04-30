@@ -64,6 +64,10 @@ class SearchServiceProvider extends ServiceProvider {
                 'position' => 'shop.search',
                 'hook' => 'sanatorium/search::hooks.box'
             ],
+            [
+                'position' => 'admin.scripts.footer',
+                'hook' => 'sanatorium/search::hooks.admin'
+            ]
         ];
 
         $manager = $this->app['sanatorium.hooks.manager'];

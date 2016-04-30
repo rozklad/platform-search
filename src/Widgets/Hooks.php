@@ -6,4 +6,9 @@ class Hooks {
 	{
 		return view('sanatorium/search::hooks/box');
 	}
+
+    public function admin()
+    {
+        return view('sanatorium/search::hooks/admin');
+    }
 }

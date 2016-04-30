@@ -1,7 +1,7 @@
 {
 	"name": "sanatorium/search",
 	"type": "platform-extension",
-	"description": "Shop search functionality",
+	"description": "Search functionality",
 	"authors": [
 		{
 			"name": "Sanatorium",

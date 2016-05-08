@@ -9,6 +9,7 @@ return [
     'results'            => 'Výsledky vyhledávání',
     'press_enter'        => 'Kliknutím klávesy ENTER vyhledejte',
     'search_placeholder' => 'Hledat...',
+    'search_cta'         => 'Hledat',
 
     'items' => [
         'menu' => 'Položka menu',

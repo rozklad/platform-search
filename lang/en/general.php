@@ -9,6 +9,7 @@ return [
     'results'            => 'Search Results',
     'press_enter'        => 'Press enter to search',
     'search_placeholder' => 'Search...',
+    'search_cta'         => 'Search',
 
     'items' => [
         'menu' => 'Menu item',

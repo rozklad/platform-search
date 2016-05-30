@@ -1,4 +1,4 @@
-<form method="GET" class="navbar-form">
+<form method="GET" class="navbar-form {{ $css_classes }}">
 	<div class="input-group">
 		<input type="text" name="{{ trans('sanatorium/shop::general.search.input') }}" class="form-control input-lg product-search" placeholder="{{ trans('sanatorium/search::action.search_placeholder') }}">
 		<span class="input-group-btn">

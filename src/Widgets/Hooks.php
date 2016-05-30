@@ -2,9 +2,9 @@
 
 class Hooks {
 
-	public function box($object = null)
+	public function box($css_classes = null)
 	{
-		return view('sanatorium/search::hooks/box');
+		return view('sanatorium/search::hooks/box', compact('css_classes'));
 	}
 
     public function admin()

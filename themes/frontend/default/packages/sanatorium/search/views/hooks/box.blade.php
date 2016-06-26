@@ -1,5 +1,5 @@
 <!-- Widget: sanatorium/search::hooks.box -->
-<form method="GET" class="{{ $css_classes }}">
+<form method="GET" class="{{ $css_classes }}" action="{{ route('sanatorium.search.general') }}">
 	<div class="form-group">
 		<input type="text" name="{{ trans('sanatorium/shop::general.search.input') }}" class="form-control product-search" placeholder="{{ trans('sanatorium/search::general.search_placeholder') }}">
 	</div>

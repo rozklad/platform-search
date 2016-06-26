@@ -10,9 +10,15 @@ return [
     'press_enter'        => 'Press enter to search',
     'search_placeholder' => 'Search...',
     'search_cta'         => 'Search',
+    'search'             => 'vyhledavani',
 
     'items' => [
         'menu' => 'Menu item',
         'page' => 'Page entry',
     ],
+
+    'page' => [
+        'title' => 'Search',
+
+    ]
 ];

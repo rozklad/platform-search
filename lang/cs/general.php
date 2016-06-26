@@ -10,9 +10,15 @@ return [
     'press_enter'        => 'Kliknutím klávesy ENTER vyhledejte',
     'search_placeholder' => 'Hledat...',
     'search_cta'         => 'Hledat',
+    'route'              => 'vyhledavani',
 
     'items' => [
         'menu' => 'Položka menu',
         'page' => 'Stránka na webu',
     ],
+
+    'page' => [
+        'title' => 'Vyhledávání',
+
+    ]
 ];

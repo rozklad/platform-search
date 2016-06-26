@@ -67,7 +67,7 @@ return [
 	|
 	*/
 
-	'version' => '0.2.1',
+	'version' => '0.2.2',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -155,6 +155,14 @@ return [
 		], function(){
 
 			Route::get('api', ['as' => 'admin.sanatorium.search.api', 'uses' => 'SearchController@api' ]);
+
+		});
+
+		Route::group([
+			'namespace' => 'Sanatorium\Search\Controllers\Frontend'
+		], function(){
+
+			Route::get(trans('sanatorium/search::general.route'), ['as' => 'sanatorium.search.general', 'uses' => 'SearchController@index' ]);
 
 		});
 

@@ -11,7 +11,9 @@ class SearchController extends Controller {
      */
     public function index()
     {
-        return view('sanatorium/search::index');
+        $term = request()->get(trans('sanatorium/shop::general.search.input'));
+        
+        return view('sanatorium/search::index', compact('term'));
     }
 
 }

@@ -38,9 +38,9 @@
 @section('page')
 
     <h1>{{ trans('sanatorium/search::general.page.title') }}</h1>
-    <p class="lead">{{ trans('sanatorium/search::general.search_results', ['term' => request()->get(trans('sanatorium/shop::general.search.input'))]) }}</p>
+    <p class="lead">{{ trans('sanatorium/search::general.search_results', ['term' => $term]) }}</p>
 
-    @hook('search.results')
+    @hook('search.results', [$term])
 
 
 @stop

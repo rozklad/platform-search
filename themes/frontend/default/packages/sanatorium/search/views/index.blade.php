@@ -40,7 +40,7 @@
     <h1>{{ trans('sanatorium/search::general.page.title') }}</h1>
     <p class="lead">{{ trans('sanatorium/search::general.search_results', ['term' => $term]) }}</p>
 
-    @hook('search.results', [$term])
+    @hook('search.results', $term)
 
 
 @stop

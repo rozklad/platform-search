@@ -18,7 +18,7 @@ return [
     ],
 
     'page' => [
-        'title' => 'Search',
+        'title' => 'Search for ":term"',
 
     ]
 ];

@@ -2,7 +2,7 @@
 
 return [
 
-    'search_results'     => 'Výsledky vyhledávání :term',
+    'search_results'     => 'Výsledky vyhledávání fráze ":term"',
     'no_search_results'  => 'Nebyly nalezeny žádné produkty odpovídající :term. Zkuste prosím vyhledávat jiný výraz, nebo se vraťte na <a href="/">Hlavní stránku</a>',
     'type_anywhere'      => 'Začněte psát pro',
     'search'             => 'hledání',
@@ -18,7 +18,7 @@ return [
     ],
 
     'page' => [
-        'title' => 'Vyhledávání',
+        'title' => 'Vyhledávání fráze ":term"',
 
     ]
 ];

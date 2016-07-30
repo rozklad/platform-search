@@ -37,8 +37,8 @@
 
 @section('page')
 
-    <h1>{{ trans('sanatorium/search::general.page.title') }}</h1>
-    <p class="lead">{{ trans('sanatorium/search::general.search_results', ['term' => $term]) }}</p>
+    <h1>{{ trans('sanatorium/search::general.page.title', ['term' => $term]) }}</h1>
+    <p class="lead lead-search">{{ trans('sanatorium/search::general.search_results', ['term' => $term]) }}</p>
 
     @hook('search.results', $term)
 

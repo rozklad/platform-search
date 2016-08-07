@@ -3,6 +3,11 @@
   'use strict';
 
   $(document).ready(function() {
+
+    // @todo: loose coupling (get rid of scrollbar dependency)
+    if ( typeof $(".list-view-wrapper").scrollbar != 'function' )
+      return false;
+
     // Initializes search overlay plugin.
     // Replace onSearchSubmit() and onKeyEnter() with
     // your logic to perform a search and display results
